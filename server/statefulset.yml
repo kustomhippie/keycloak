@@ -63,8 +63,12 @@ spec:
             - -c
             - |
               echo "Waiting for database to become ready..."
-              wait-for-it -t 120 postgres-server:5432
+              wait-for-it -t 120 ${DB_ADDR}:${DB_PORT}
               echo "OK ✓"
+
+          envFrom:
+            - configMapRef:
+                name: keycloak-server
 
           resources:
             limits:
