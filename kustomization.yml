@@ -11,7 +11,7 @@ commonLabels:
 images:
   - name: keycloak-checks
     newName: docker.io/webhippie/alpine
-    newTag: "latest"
+    newTag: "3.10"
 
   - name: keycloak-server
     newName: quay.io/keycloak/keycloak
