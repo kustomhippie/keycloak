@@ -10,7 +10,7 @@ commonLabels:
 
 images:
   - name: keycloak-checks
-    newName: webhippie/alpine
+    newName: quay.io/webhippie/alpine
     newTag: "3.14"
 
   - name: keycloak-server
