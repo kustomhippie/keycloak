@@ -5,19 +5,15 @@ kind: Kustomization
 resources:
   - server/
 
-commonLabels:
-  app.kubernetes.io/name: keycloak
-
 images:
   - name: keycloak-checks
     newName: quay.io/webhippie/alpine
     newTag: "3.14"
-
-  - name: keycloak-server
-    newName: quay.io/keycloak/keycloak
-    newTag: "12.0.4"
   - name: keycloak-extensions
     newName: quay.io/keycloak/keycloak-init-container
-    newTag: "12.0.4"
+    newTag: "15.0.2"
+  - name: keycloak-server
+    newName: quay.io/keycloak/keycloak
+    newTag: "15.0.2"
 
 ...

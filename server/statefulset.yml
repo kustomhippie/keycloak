@@ -4,20 +4,31 @@ kind: StatefulSet
 
 metadata:
   name: keycloak-server
+  labels:
+    app.kubernetes.io/name: keycloak
+    app.kubernetes.io/component: server
 
 spec:
   replicas: 1
-
   serviceName: keycloak-server
   podManagementPolicy: Parallel
 
   updateStrategy:
     type: RollingUpdate
 
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: keycloak
+      app.kubernetes.io/component: server
+
   template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: keycloak
+        app.kubernetes.io/component: server
+
     spec:
-      serviceAccountName: keycloak-server
-      enableServiceLinks: true
+      enableServiceLinks: false
       restartPolicy: Always
       terminationGracePeriodSeconds: 60
 
@@ -111,6 +122,8 @@ spec:
           envFrom:
             - configMapRef:
                 name: keycloak-server
+            - secretRef:
+                name: keycloak-server
 
           ports:
             - name: http
@@ -136,14 +149,6 @@ spec:
             httpGet:
               path: /auth/realms/master
               port: http
-
-          # resources:
-          #   requests:
-          #     cpu: 500m
-          #     memory: 1024Mi
-          #   limits:
-          #     cpu: 500m
-          #     memory: 4096Mi
 
           volumeMounts:
             - name: extensions
