@@ -11,7 +11,7 @@ images:
     newTag: "3.16"
   - name: keycloak-extensions
     newName: quay.io/keycloak/keycloak-init-container
-    newTag: "18.0.2"
+    newTag: "19.0.1"
   - name: keycloak-server
     newName: quay.io/keycloak/keycloak
     newTag: "19.0.1"
