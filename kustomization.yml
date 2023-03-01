@@ -14,6 +14,6 @@ images:
     newTag: "19.0.3"
   - name: keycloak-server
     newName: quay.io/keycloak/keycloak
-    newTag: "21.0.0"
+    newTag: "21.0.1"
 
 ...
