@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0](https://github.com/kustomhippie/keycloak/compare/v1.0.1...v2.0.0) (2023-07-17)
+
+
+### Features
+
+* **major:** update major versions ([e7d0288](https://github.com/kustomhippie/keycloak/commit/e7d0288b1ed269e94acc6cb06aa6697abb08e654))
+
 ## [1.0.1](https://github.com/kustomhippie/keycloak/compare/v1.0.0...v1.0.1) (2023-07-03)
 
 
