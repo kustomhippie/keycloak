@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.1.0](https://github.com/kustomhippie/keycloak/compare/v3.0.1...v3.1.0) (2023-12-18)
+
+
+### Features
+
+* **deps:** update quay.io/webhippie/alpine docker tag to v3.19 ([e334a5d](https://github.com/kustomhippie/keycloak/commit/e334a5d9c07d829edeaf0f7ed67b1e2ab51290e1))
+
+
+### Bugfixes
+
+* **deps:** update quay.io/keycloak/keycloak docker tag to v23.0.2 ([8901153](https://github.com/kustomhippie/keycloak/commit/89011538cf5952f32f66d20f0e2ff34084f164ff))
+* **deps:** update quay.io/keycloak/keycloak docker tag to v23.0.3 ([3276256](https://github.com/kustomhippie/keycloak/commit/3276256c8445e42c19bcd93b7a3ab31fc164db33))
+
 ## [3.0.1](https://github.com/kustomhippie/keycloak/compare/v3.0.0...v3.0.1) (2023-12-04)
 
 
