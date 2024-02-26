@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.3](https://github.com/kustomhippie/keycloak/compare/v3.1.2...v3.1.3) (2024-02-26)
+
+
+### Bugfixes
+
+* **deps:** update quay.io/keycloak/keycloak docker tag to v23.0.7 ([a7557b7](https://github.com/kustomhippie/keycloak/commit/a7557b79935d86dd31e5887fcc1d7efa9e6ae212))
+
 ## [3.1.2](https://github.com/kustomhippie/keycloak/compare/v3.1.1...v3.1.2) (2024-02-05)
 
 
