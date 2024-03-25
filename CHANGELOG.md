@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.1](https://github.com/kustomhippie/keycloak/compare/v4.0.0...v4.0.1) (2024-03-25)
+
+
+### Bugfixes
+
+* **deps:** update quay.io/keycloak/keycloak docker tag to v24.0.2 ([6178e05](https://github.com/kustomhippie/keycloak/commit/6178e0575fc9a92631cab01ace4246e2e2cbc589))
+
 ## [4.0.0](https://github.com/kustomhippie/keycloak/compare/v3.1.3...v4.0.0) (2024-03-11)
 
 
