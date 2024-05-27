@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.0](https://github.com/kustomhippie/keycloak/compare/v4.0.3...v4.1.0) (2024-05-27)
+
+
+### Features
+
+* **deps:** update quay.io/webhippie/alpine docker tag to v3.20 ([15cfc10](https://github.com/kustomhippie/keycloak/commit/15cfc10c3a4a08aee65c5591c80fa20e34f23b58))
+
 ## [4.0.3](https://github.com/kustomhippie/keycloak/compare/v4.0.2...v4.0.3) (2024-05-13)
 
 
