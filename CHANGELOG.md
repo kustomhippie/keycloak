@@ -1,5 +1,13 @@
 # Changelog
 
+## [5.0.3](https://github.com/kustomhippie/keycloak/compare/v5.0.2...v5.0.3) (2024-08-26)
+
+
+### Bugfixes
+
+* **deps:** update quay.io/keycloak/keycloak docker tag to v25.0.3 ([20b79d2](https://github.com/kustomhippie/keycloak/commit/20b79d2f2affb96902441a8c8051062a351d4faf))
+* **deps:** update quay.io/keycloak/keycloak docker tag to v25.0.4 ([c88b9ab](https://github.com/kustomhippie/keycloak/commit/c88b9abd1b817cc5315874633bb71f313c59be13))
+
 ## [5.0.2](https://github.com/kustomhippie/keycloak/compare/v5.0.1...v5.0.2) (2024-07-22)
 
 
