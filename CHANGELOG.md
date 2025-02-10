@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.1.1](https://github.com/kustomhippie/keycloak/compare/v6.1.0...v6.1.1) (2025-02-10)
+
+
+### Bugfixes
+
+* **deps:** update quay.io/keycloak/keycloak docker tag to v26.1.1 ([#70](https://github.com/kustomhippie/keycloak/issues/70)) ([619aa3a](https://github.com/kustomhippie/keycloak/commit/619aa3a837972e2a908bd9bf17c0627954fcec06))
+
 ## [6.1.0](https://github.com/kustomhippie/keycloak/compare/v6.0.5...v6.1.0) (2025-01-20)
 
 
