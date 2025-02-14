@@ -8,7 +8,7 @@ resources:
 images:
   - name: keycloak-checks
     newName: quay.io/webhippie/alpine
-    newTag: "3.20"
+    newTag: "3.21"
   - name: keycloak-extensions
     newName: quay.io/keycloak/keycloak-init-container
     newTag: "19.0.3"
