@@ -1,5 +1,17 @@
 # Changelog
 
+## [6.2.0](https://github.com/kustomhippie/keycloak/compare/v6.1.1...v6.2.0) (2025-02-17)
+
+
+### Features
+
+* **deps:** update quay.io/webhippie/alpine docker tag to v3.21 ([#72](https://github.com/kustomhippie/keycloak/issues/72)) ([36ef156](https://github.com/kustomhippie/keycloak/commit/36ef156f995fdf627023cdfa4785af20864f0c07))
+
+
+### Bugfixes
+
+* **deps:** update quay.io/keycloak/keycloak docker tag to v26.1.2 ([#71](https://github.com/kustomhippie/keycloak/issues/71)) ([1b9fd5b](https://github.com/kustomhippie/keycloak/commit/1b9fd5b88205da959a9f72eee33e0153efdfe3fa))
+
 ## [6.1.1](https://github.com/kustomhippie/keycloak/compare/v6.1.0...v6.1.1) (2025-02-10)
 
 
